@@ -80839,7 +80839,7 @@ s===$&&A.a()
 s.aN(0)
 this.d.m()
 this.Z1()},
-F(a){var s,r,q,p,o=this,n=null,m=A.w(a).p3.la(A.w(a).ax.db),l=A.ho("assets/images/flutter_fly.png",n,n,100,100),k=A.JJ("FlutterFly - Build anything",m.w.afI(B.LM,B.aL,3)),j=t.p
+F(a){var s,r,q,p,o=this,n=null,m=A.w(a).p3.la(A.w(a).ax.db),l=A.ho("assets/images/flutter_fly.png",n,n,100,100),k=A.JJ("FlutteryFly - Build anything",m.w.afI(B.LM,B.aL,3)),j=t.p
 k=A.hP(A.b([A.o2(n,B.G3,new A.agX(a),n,"About US")],j),n,A.aP(n,n,B.i,n,n,B.zs,n,n,n,n,n,n,n),l,B.LK,k)
 l=o.y
 s=o.z
@@ -81724,7 +81724,7 @@ A.HE.prototype={
 F(a){var s,r=null,q=A.df(10),p=A.aP(B.bQ,A.o2(r,B.G7,new A.a06(a),r,r),B.i,r,r,r,r,r,r,B.f_,r,r,r),o=A.aP(r,r,B.i,r,r,r,r,40,r,r,r,r,r),n=A.ho("assets/images/bird_flutter.png",A.w(a).ax.b,B.c4,40,r),m=A.aP(r,r,B.i,r,r,r,r,25,r,r,r,r,r),l=A.w(a).p3.f
 l.toString
 s=t.p
-l=A.aP(r,A.c5(A.b([n,m,A.cs("Bolt UIX ",r,r,r,r,l.afw(A.w(a).ax.b,B.aL),B.a8,r),A.cs("Made with \u2661 FlutterFly ",r,r,r,r,A.w(a).p3.z.c5(B.cs),B.a8,r),A.aP(r,r,B.i,r,r,r,r,15,r,r,r,r,r),A.cs("By joining us, you can start building your dream app today!",r,r,r,r,A.w(a).p3.w.c5(B.cs),B.a8,r)],s),B.bb,B.M,B.u),B.i,r,r,r,r,r,r,B.hP,r,r,1/0)
+l=A.aP(r,A.c5(A.b([n,m,A.cs("Bolt UIX ",r,r,r,r,l.afw(A.w(a).ax.b,B.aL),B.a8,r),A.cs("Made with \u2661 FlutteryFly ",r,r,r,r,A.w(a).p3.z.c5(B.cs),B.a8,r),A.aP(r,r,B.i,r,r,r,r,15,r,r,r,r,r),A.cs("By joining us, you can start building your dream app today!",r,r,r,r,A.w(a).p3.w.c5(B.cs),B.a8,r)],s),B.bb,B.M,B.u),B.i,r,r,r,r,r,r,B.hP,r,r,1/0)
 m=A.aP(r,r,B.i,r,r,r,r,35,r,r,r,r,r)
 n=A.w(a).p3.z
 n.toString
