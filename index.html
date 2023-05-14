@@ -23,18 +23,18 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_uix">
+  <meta name="apple-mobile-web-app-title" content="flutterblog">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>flutter_uix</title>
+  <title>flutterblog</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1691414275';
+    var serviceWorkerVersion = "570976822";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -46,37 +46,14 @@
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
         }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
       });
     });
   </script>
-
-
-  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
-
-  <script>
-  //Replace with your config data
-  var firebaseConfig = {
-    apiKey: "AIzaSyAvMFhsmzn_chCjllGR8sD4JuJKQrudqq4",
-    authDomain: "flutter-uix.firebaseapp.com",
-    projectId: "flutter-uix",
-    storageBucket: "flutter-uix.appspot.com",
-    messagingSenderId: "258259054165",
-    appId: "1:258259054165:web:f45e7b19ed0e58ac046edc",
-    measurementId: "G-HW9C3VXRMV"
-  };
-
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-  </script>
-
-
-
 </body>
 </html>
