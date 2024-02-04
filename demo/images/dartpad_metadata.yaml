@@ -1,0 +1,6 @@
+name: Image widget
+mode: flutter
+files:
+  - name: main.dart
+assets:
+    - assets/images/
